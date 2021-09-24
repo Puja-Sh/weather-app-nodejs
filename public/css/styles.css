@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+body {
+  color: #333333;
+  font-family: "Poppins", sans-serif;
+  max-width: 60%;
+  margin: 0 auto;
+  padding: 0 16px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-weight: normal;
+}
+
+.main-content {
+  flex-grow: 1;
+}
+.portrait-container {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+}
+
+.links {
+  display: flex;
+}
+.links a {
+  padding-right: 1rem;
+  color: tomato;
+}
+.about-container {
+  padding-left: 3rem;
+}
+footer {
+  columns: #888888;
+  border-top: 1px solid #797979;
+  padding: 16px 0;
+  margin-top: 16px;
+}
+
+header {
+  font-size: 30px;
+  margin-top: 16px;
+  margin-bottom: 48px;
+}
+
+header a {
+  text-decoration: none;
+  color: #888888;
+  margin-right: 16px;
+  transition: color 200ms linear;
+}
+
+header a:hover {
+  color: tomato;
+}
+.portrait {
+  width: 250px;
+}
+
+input {
+  border: 1px solid #cccccc;
+  padding: 8px;
+  width: 60%;
+}
+
+input:focus {
+  outline-color: tomato;
+}
+button {
+  cursor: pointer;
+  background-color: #888888;
+  color: white;
+  padding: 8px;
+  outline: none;
+  border: none;
+  transition: background-color 150ms linear;
+}
+button:hover {
+  background-color: tomato;
+}
+
+#message-1 {
+  color: tomato;
+}
+
+#message-2 {
+  color: rgb(253, 124, 101);
+  font-weight: normal;
+}
+#message-3 {
+  color: rgb(255, 152, 134);
+  font-weight: normal;
+}
